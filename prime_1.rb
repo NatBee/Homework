@@ -1,6 +1,6 @@
 def prime?(number)
 
-input.gets
+input = gets
 
 if input%0
   then puts "not a prime number"

@@ -19,7 +19,7 @@
 #The program ends after running through and printing something for every number
 #from 0 through 1000
 
-
+def super_fizz(number)
 (0..1000).each do |number|
 divisible_by_3 = number % 3
 divisible_by_5 = number % 5
@@ -48,3 +48,6 @@ else
   puts number
 end
 end
+end
+
+super_fizz(0)
